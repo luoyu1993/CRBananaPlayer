@@ -1,0 +1,6 @@
+framework module Pods_CRBananerPlayerTests {
+  umbrella header "Pods-CRBananerPlayerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

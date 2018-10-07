@@ -1,0 +1,15 @@
+platform :ios, '9.0'
+use_frameworks!
+
+target 'CRBananerPlayer' do
+#    pod 'WCDB.swift'
+    pod 'CWLateralSlide', '~> 1.6.3'
+    pod 'GCDWebServer/WebUploader', '~> 3.0'
+    pod 'Bugly'
+
+    target 'CRBananerPlayerTests' do
+        inherit! :search_paths
+#        pod 'WCDB.swift'
+    end
+
+end

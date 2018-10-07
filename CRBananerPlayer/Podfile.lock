@@ -1,0 +1,26 @@
+PODS:
+  - Bugly (2.5.0)
+  - CWLateralSlide (1.6.3)
+  - GCDWebServer/Core (3.4.2)
+  - GCDWebServer/WebUploader (3.4.2):
+    - GCDWebServer/Core
+
+DEPENDENCIES:
+  - Bugly
+  - CWLateralSlide (~> 1.6.3)
+  - GCDWebServer/WebUploader (~> 3.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bugly
+    - CWLateralSlide
+    - GCDWebServer
+
+SPEC CHECKSUMS:
+  Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
+  CWLateralSlide: 1b9a848873b93de45cfefe6389765b12aa70982c
+  GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
+
+PODFILE CHECKSUM: 9fbec3d8d57d8bf59b35faee0fd2433bb0b1a9f8
+
+COCOAPODS: 1.5.3

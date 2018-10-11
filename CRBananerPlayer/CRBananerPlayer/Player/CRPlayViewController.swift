@@ -169,7 +169,7 @@ class CRPlayViewController: UIViewController, CRBananerPlayerDelegate {
         
         if audioTool.openFile(filePath: _path) {
             if let playProgress = currentAudio?.progress,
-                let finish = currentAudio?.isFinish(),
+                let finish = currentAudio?.isFinish,
                 finish == false {
                 audioTool.seekTo(progress: playProgress)
             } else {

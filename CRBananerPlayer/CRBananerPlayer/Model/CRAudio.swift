@@ -20,8 +20,24 @@ class CRAudio: NSObject {
     var fromApp: String?
     var like: Bool = false
     
+    // 是否播放完成
+    lazy var isFinish: Bool? = {
+        guard let _current = current, let _duration = duration else {
+            return nil
+        }
+        
+        let aCurrent = ceil(_current)
+        let aDuration = round(_duration)
+        if aCurrent >= aDuration {
+            return true
+        } else {
+            return false
+        }
+    }()
+    
+    
     var progressText: String? {
-        guard let finish = self.isFinish() else {
+        guard let finish = self.isFinish else {
             return nil
         }
         if finish {
@@ -56,18 +72,6 @@ class CRAudio: NSObject {
         let components = path.components(separatedBy: "/")
         let title = components.last
         return title
-    }
-    
-    func isFinish() -> Bool? {
-        guard let _current = current, let _duration = duration else {
-            return nil
-        }
-        if Double(round(100*_current)/100) == Double(round(100*_duration)/100) {
-            return true
-        } else {
-            let aProgress = Int((current! / duration!) * 100)
-            return false
-        }
     }
     
     func coverImage() -> UIImage? {

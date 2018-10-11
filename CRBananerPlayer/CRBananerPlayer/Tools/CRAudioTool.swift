@@ -59,7 +59,7 @@ class CRAudioTool: NSObject, AVAudioPlayerDelegate {
         timer?.invalidate()
         timer = nil
         
-        timer = Timer.scheduledTimer(withTimeInterval: 0.05, repeats: true, block: { _ in
+        timer = Timer.scheduledTimer(withTimeInterval: 0.1, repeats: true, block: { _ in
             if let time = self.player?.currentTime {
                 if self.currentTime == time {
                     return

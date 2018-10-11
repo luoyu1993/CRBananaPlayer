@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         Bugly.start(withAppId: "b16e7df0b0")
         Bugly.setUserIdentifier(UIDevice.current.name)
+        UMConfigure.initWithAppkey("5bbdf502f1f5565007000402", channel: "App Store")
         return true
     }
 

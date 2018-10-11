@@ -4,23 +4,36 @@ PODS:
   - GCDWebServer/Core (3.4.2)
   - GCDWebServer/WebUploader (3.4.2):
     - GCDWebServer/Core
+  - UMCAnalytics (5.5.1):
+    - UMCCommon
+  - UMCCommon (1.5.2)
+  - UMCSecurityPlugins (1.0.6)
 
 DEPENDENCIES:
   - Bugly
   - CWLateralSlide (~> 1.6.3)
   - GCDWebServer/WebUploader (~> 3.0)
+  - UMCAnalytics
+  - UMCCommon
+  - UMCSecurityPlugins
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Bugly
     - CWLateralSlide
     - GCDWebServer
+    - UMCAnalytics
+    - UMCCommon
+    - UMCSecurityPlugins
 
 SPEC CHECKSUMS:
   Bugly: 3ca9f255c01025582df26f9222893b383c7e4b4e
   CWLateralSlide: 1b9a848873b93de45cfefe6389765b12aa70982c
   GCDWebServer: 8d67ee9f634b4bb91eb4b8aee440318a5fc6debd
+  UMCAnalytics: 0aff87e39008e2a650e5917430db0da2de2f8495
+  UMCCommon: 4392868ac47ff1b101663106bb114ba616fabbad
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
 
-PODFILE CHECKSUM: 9fbec3d8d57d8bf59b35faee0fd2433bb0b1a9f8
+PODFILE CHECKSUM: b6befd8ba771311e78df3882a0df7cc1bfbcde68
 
 COCOAPODS: 1.5.3

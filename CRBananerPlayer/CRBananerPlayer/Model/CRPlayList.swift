@@ -115,7 +115,7 @@ class CRPlayList: NSObject {
         let audio = playList[index]
         
         // 已经播放完成的不更新进度
-        if let finish = audio.isFinish(),
+        if let finish = audio.isFinish,
             finish == true {
             return
         }

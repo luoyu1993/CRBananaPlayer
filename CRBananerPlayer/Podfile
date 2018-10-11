@@ -6,6 +6,9 @@ target 'CRBananerPlayer' do
     pod 'CWLateralSlide', '~> 1.6.3'
     pod 'GCDWebServer/WebUploader', '~> 3.0'
     pod 'Bugly'
+    pod 'UMCCommon'
+    pod 'UMCAnalytics'
+    pod 'UMCSecurityPlugins'
 
     target 'CRBananerPlayerTests' do
         inherit! :search_paths

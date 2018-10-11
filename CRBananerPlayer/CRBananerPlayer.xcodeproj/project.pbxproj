@@ -14,6 +14,7 @@
 		174A1D0F2159025E002DE12F /* CRAboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174A1D0E2159025E002DE12F /* CRAboutViewController.swift */; };
 		1772B9B32013761C00F5D8D2 /* CRAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1772B9B22013761C00F5D8D2 /* CRAudio.swift */; };
 		17AC2DFF205552FA00EE2219 /* CRPlayListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AC2DFE205552FA00EE2219 /* CRPlayListCell.swift */; };
+		17B442F1216E4A8D00121DE4 /* CRPrivaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B442F0216E4A8D00121DE4 /* CRPrivaceViewController.swift */; };
 		17C34CC01FA8BF7400E37A83 /* CRPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C34CBF1FA8BF7400E37A83 /* CRPlayViewController.swift */; };
 		17CE4162214E4436003A9D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17CE4161214E4436003A9D3D /* Assets.xcassets */; };
 		17CE4164214E7E87003A9D3D /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17CE4163214E7E87003A9D3D /* UIColor+Hex.swift */; };
@@ -50,6 +51,7 @@
 		176686BA2153F43B004E2274 /* CRBananerPlayer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CRBananerPlayer.entitlements; sourceTree = "<group>"; };
 		1772B9B22013761C00F5D8D2 /* CRAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRAudio.swift; sourceTree = "<group>"; };
 		17AC2DFE205552FA00EE2219 /* CRPlayListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRPlayListCell.swift; sourceTree = "<group>"; };
+		17B442F0216E4A8D00121DE4 /* CRPrivaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRPrivaceViewController.swift; sourceTree = "<group>"; };
 		17C34CBF1FA8BF7400E37A83 /* CRPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRPlayViewController.swift; sourceTree = "<group>"; };
 		17CE415D214D1790003A9D3D /* CRBananerPlayer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRBananerPlayer-Bridging-Header.h"; sourceTree = "<group>"; };
 		17CE4161214E4436003A9D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -107,13 +109,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1789DCD821469C3E0005FA95 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Vendor;
-			sourceTree = "<group>";
-		};
 		17AC2DFC205552B100EE2219 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +121,6 @@
 		17FE3A6D1FA6117D0007A55F = {
 			isa = PBXGroup;
 			children = (
-				1789DCD821469C3E0005FA95 /* Vendor */,
 				17FE3A781FA6117D0007A55F /* CRBananerPlayer */,
 				17FE3A8D1FA6117E0007A55F /* CRBananerPlayerTests */,
 				17FE3A981FA6117E0007A55F /* CRBananerPlayerUITests */,
@@ -195,6 +189,7 @@
 				17CE4167214E7F9D003A9D3D /* CRSettingViewController.swift */,
 				17CE416D214E930D003A9D3D /* CRUploadViewController.swift */,
 				174A1D0E2159025E002DE12F /* CRAboutViewController.swift */,
+				17B442F0216E4A8D00121DE4 /* CRPrivaceViewController.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -426,6 +421,7 @@
 				17D0948020137E9800BB7912 /* CRFileTool.swift in Sources */,
 				17FE3AAA1FA613D70007A55F /* CRAudioTool.swift in Sources */,
 				173C75992026E93900F79222 /* CRPlayList.swift in Sources */,
+				17B442F1216E4A8D00121DE4 /* CRPrivaceViewController.swift in Sources */,
 				17CE4164214E7E87003A9D3D /* UIColor+Hex.swift in Sources */,
 				1772B9B32013761C00F5D8D2 /* CRAudio.swift in Sources */,
 				174A1D0F2159025E002DE12F /* CRAboutViewController.swift in Sources */,

@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04D79DCE91F6B898FB9FA4F99F2B91F1 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 67A561A2C28243B51AE6FAE3157C425C /* GCDWebServerStreamedResponse.m */; };
-		0A3E701F3C232476117E23BDDD8BA645 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 40367FCF9444B07C85391D932A0E6713 /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BC7E34AD3EFF3C2B497A0B6CF4AEBD5 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 41893923D589CF390B0CF8484875D26B /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D03986EAE1590B12F6269B51C866460 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 407DD84DE665B40D70A65EEFBAB91F38 /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F321DB91F8C5863CD8B8CF53AAE093A /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = CB52D1AF0A7F12340EAD4D4E3A7FE35D /* GCDWebServerFunctions.m */; };
+		04D79DCE91F6B898FB9FA4F99F2B91F1 /* GCDWebServerStreamedResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C62D4F76F04CC13AA47963C226171B78 /* GCDWebServerStreamedResponse.m */; };
+		0A3E701F3C232476117E23BDDD8BA645 /* GCDWebServerDataResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = F03BEF267625DBAF2B86B1AD10150DFB /* GCDWebServerDataResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC7E34AD3EFF3C2B497A0B6CF4AEBD5 /* GCDWebServerFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A673C118BE079ED81DD8E459CAF08C /* GCDWebServerFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D03986EAE1590B12F6269B51C866460 /* GCDWebServerRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF04DB5A322274AD63EAE0C0BDF4DFD /* GCDWebServerRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F321DB91F8C5863CD8B8CF53AAE093A /* GCDWebServerFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CBE4C57F4562F39FE3DF72667C13DA /* GCDWebServerFunctions.m */; };
 		1CC48D1FB9D500BFF30CCC2FEB310D2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AA7CD4FF740C36A429F4EB5A8F77C7 /* Foundation.framework */; };
-		2782F0B7CA4A5B2ABB2668BDA63D2AF7 /* CWInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = FCD1A8C4D7E33599E7603EE70AF68F60 /* CWInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2782F0B7CA4A5B2ABB2668BDA63D2AF7 /* CWInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 103BD1DEC586F747560F9F29A970C95F /* CWInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E80A39C700A60050A1D025F1BF6344A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AA7CD4FF740C36A429F4EB5A8F77C7 /* Foundation.framework */; };
-		394C8ECDF974BC8DF9172540F97B7649 /* UIViewController+CWLateralSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5DCA9438724EE8E2774A773F48A8DE /* UIViewController+CWLateralSlide.m */; };
-		3AAC8808B74A90226F82AD59BBB1D2F8 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F1E472D44D4A1E8DC27CD01C14837A /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42C5F25F10D9D8A0CC46E0C09D2E5CDD /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E208854729A1DA4D7D1FCA077A7668BC /* GCDWebUploader.bundle */; };
+		394C8ECDF974BC8DF9172540F97B7649 /* UIViewController+CWLateralSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = E28F9FC69F5EAE06260441B0E50A2BFA /* UIViewController+CWLateralSlide.m */; };
+		3AAC8808B74A90226F82AD59BBB1D2F8 /* GCDWebServerFileResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A42E78F779723E5D40BF72772EDFE16A /* GCDWebServerFileResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42C5F25F10D9D8A0CC46E0C09D2E5CDD /* GCDWebUploader.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C22E4B702AAC6FF92FB11400E8D239FE /* GCDWebUploader.bundle */; };
 		45BE3EB7D24D983AEA09C2047EB4486C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AA7CD4FF740C36A429F4EB5A8F77C7 /* Foundation.framework */; };
 		48E9B23897BED7D8104F7A548069DA1B /* Pods-CRBananerPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1577C8219AD4C6D7E91CC6C8ABEC11D2 /* Pods-CRBananerPlayer-dummy.m */; };
-		4A583FA0DCAF12C21CDF2D94D6F88517 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B558B72030F294FB2083737EA2F692A /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50A18600130CFF89969C5799317581C7 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 41433A1F3F25AEB17AA983F964983F82 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50B6C459C56B4BB361EE04B2CA0A6C88 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 835C688EE12B12C4D2AAC7D974205A5E /* GCDWebServerFileResponse.m */; };
-		51F0920D3181F9C291415A801871446F /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 99174C5F2785877C53A3EAD47CD558A1 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5318CF156A8F9F3A4DBA3E0577ADCC8A /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 47145BBAB6642244C4E40BA9043EB719 /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		561CE7C109F1FE42BB0574EF4027C7EC /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F6394BADA59FAE1CD1054A8D67D3B1D /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		5A0FD92B7B6934676A7F93D37CA550E3 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 40643A50AF5980A6CBD43D325F792455 /* GCDWebServerFileRequest.m */; };
-		71ED28FBC4A9FC471D1D1DED59FEE285 /* CWLateralSlideConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = A26A17D8E2820ED20D6A08C9B4C6D2E2 /* CWLateralSlideConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		737739E1425E6827787C9F7A5F62CC89 /* CWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = B34A3CC4E2ECF655D20D70DE334DB427 /* CWInteractiveTransition.m */; };
+		4A583FA0DCAF12C21CDF2D94D6F88517 /* GCDWebServerDataRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 59677262C59337D006AB6C3305012F33 /* GCDWebServerDataRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50A18600130CFF89969C5799317581C7 /* GCDWebServerResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C410CE8887F7F1A26DECFBB841B84F98 /* GCDWebServerResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50B6C459C56B4BB361EE04B2CA0A6C88 /* GCDWebServerFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 16FCA4A184456CB76311F36C0EF81DE1 /* GCDWebServerFileResponse.m */; };
+		51F0920D3181F9C291415A801871446F /* GCDWebServerErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = C614397D3D78E9CEC85F7B7C6E34EB70 /* GCDWebServerErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5318CF156A8F9F3A4DBA3E0577ADCC8A /* GCDWebServerMultiPartFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C55C3217E145090FBF116AD41268A4A /* GCDWebServerMultiPartFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561CE7C109F1FE42BB0574EF4027C7EC /* GCDWebServerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ABE73352AA0A9C64CF905B7B3A3C5A1 /* GCDWebServerPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5A0FD92B7B6934676A7F93D37CA550E3 /* GCDWebServerFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = EE10F854E8E0586C1356056C9FA8E424 /* GCDWebServerFileRequest.m */; };
+		71ED28FBC4A9FC471D1D1DED59FEE285 /* CWLateralSlideConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C68DE6A37B0D8CE0DD6FF51DBDDA11 /* CWLateralSlideConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		737739E1425E6827787C9F7A5F62CC89 /* CWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7993E1778819534C1B3B6FC883E179 /* CWInteractiveTransition.m */; };
 		768F01DB004060B946C9A89081FF90A1 /* Pods-CRBananerPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C85069B9BBA805660998E8871E20A3B /* Pods-CRBananerPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76C3175569D0941B8D54AC685FEE27D5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81EAB1ACE694E696FF8C5B9CBEFAEA9B /* MobileCoreServices.framework */; };
 		77B540BB31760E04C6C8AD0D9F99024D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB320198A9B78AA806E49B1445CC3020 /* CFNetwork.framework */; };
-		796F78355215E335C3FED740C91C7A78 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9866D0B27DCFFD01F85A3A5052B387 /* GCDWebServerErrorResponse.m */; };
-		7C21C875BCE7F4F80B3A77BF79BBAFEA /* CWLateralSlide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47878D8D8C52531160A5FA3805ED7BA7 /* CWLateralSlide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7F6D3F2181D511ED3852378967FD8923 /* CWDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D6B19865420C763D63C2B084C250287 /* CWDrawerTransition.m */; };
-		82EAE98383BC688B5113D73F3790E4B0 /* CWLateralSlide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 680821A8967A71F4A530BA736812F378 /* CWLateralSlide-dummy.m */; };
-		9423B4C132A03AB27CC265CB59C04633 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEA66FA3CC2B158C47CBC43713A9A46 /* GCDWebServer-dummy.m */; };
-		94617051D96128A6AC445AB7EA4BB435 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB1CA601B962D3F4551271546B8D3D1 /* GCDWebServerRequest.m */; };
-		96B692C60E6992B0F6CB387831407736 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC6EBF3B610564A933C0FB7A6FEB1C1 /* GCDWebServerURLEncodedFormRequest.m */; };
-		97D7C7EA21A24650E4963C6421EE4831 /* CWLateralSlideConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0EFC509876054B9423FE6BDBE2ABF5 /* CWLateralSlideConfiguration.m */; };
-		99607C2F446BACAFF147E79F20BE30AE /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AB61CB9C5920846E1D7B28A94D24EEA /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A573799F7C6349B5B9F5A94D19703BF /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BB2BDE91C5407F2F7FC19D5915F61E /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		796F78355215E335C3FED740C91C7A78 /* GCDWebServerErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EE1DAD998F0EF9F0560C6FB21BE43 /* GCDWebServerErrorResponse.m */; };
+		7C21C875BCE7F4F80B3A77BF79BBAFEA /* CWLateralSlide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EB1DC94F0FFB26A7CB11581D2EF85C1 /* CWLateralSlide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6D3F2181D511ED3852378967FD8923 /* CWDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = A22CC23AD1C1E836321E93C6DE053188 /* CWDrawerTransition.m */; };
+		82EAE98383BC688B5113D73F3790E4B0 /* CWLateralSlide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA92C516B65F7874FDA138EDE784BBA6 /* CWLateralSlide-dummy.m */; };
+		9423B4C132A03AB27CC265CB59C04633 /* GCDWebServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055F6A61B57D4EB140B438D8722B5F87 /* GCDWebServer-dummy.m */; };
+		94617051D96128A6AC445AB7EA4BB435 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1893A8574159BC818C3C80314B6FD72 /* GCDWebServerRequest.m */; };
+		96B692C60E6992B0F6CB387831407736 /* GCDWebServerURLEncodedFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2772E0B49491B318AD7CD767F59B9571 /* GCDWebServerURLEncodedFormRequest.m */; };
+		97D7C7EA21A24650E4963C6421EE4831 /* CWLateralSlideConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AC52774BE7964DE04C570F0FFD190A /* CWLateralSlideConfiguration.m */; };
+		99607C2F446BACAFF147E79F20BE30AE /* GCDWebServerFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BA655E43AC9AD7EE384DF7BBA0A8A67 /* GCDWebServerFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A573799F7C6349B5B9F5A94D19703BF /* GCDWebServerHTTPStatusCodes.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D83740913E3973166897F0A9717491 /* GCDWebServerHTTPStatusCodes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BAF4A8CDE2C313D3B3B74DC33BB906BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AA7CD4FF740C36A429F4EB5A8F77C7 /* Foundation.framework */; };
-		BCCB75FA75C848F13C1EA4242D787ECF /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D539DA3E34C7D424572B1CEC24AEA73 /* GCDWebServer.m */; };
-		BE97D79FA076A6A71350579AE9D3DBA9 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A08296D4414824AEB12FA2446DF2806 /* GCDWebUploader.m */; };
-		C1932EEDBCF1379B6447E2C5D45C1772 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 88AC384E8CB02002ACE577C5DB81ECDA /* GCDWebServerConnection.m */; };
-		C9A395E90395CB662C7332B05DF15F11 /* UIViewController+CWLateralSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 7882D7ECB2A0A60BA166A280F70154FF /* UIViewController+CWLateralSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0844C04121D609EF3B9B9550A794E00 /* CWDrawerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C7715D3DB359F19ED12F4F08769FAD7 /* CWDrawerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D306B03DA8E492568032265CD23C6462 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DAAD80540E7EE5F2AEAF10CCF296569 /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D31F305A7AB202CE47351BE495F3CE77 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE458CF0D9EFA5857AF457F43B560D4 /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5ECAACA5A94B77CFDFEAC1421D200C0 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF584952143075FC327C890FA129AFD /* GCDWebServerMultiPartFormRequest.m */; };
-		D6CA3C9CCD66A29359C0BB070AE1B74C /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A17D036CA077926684627185ED26749C /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DAB359E96F048D562D1E867CA361FFBB /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E35D717ED1A407BAE7748470C2F06A /* GCDWebServerDataRequest.m */; };
-		DFAA6D8B407F7183C7B7C51F824891F7 /* GCDWebUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 05D3EAF9B7388A973C6FFAB014A7A0D3 /* GCDWebUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E097C58ABE788123F57BDAC849938D18 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = D423E1ABE1C533A2599A7AF20A45BB03 /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E41E807B5C91404FC7930A24FE7C710A /* CWLateralSlideAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = F8700DDF231246AB4DD52AC4A90461F9 /* CWLateralSlideAnimator.m */; };
-		F4A8DC3243B07C5BBF2C28FCF11B2FA8 /* CWLateralSlideAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = BA59A5216B11CEC42808FE84116D189C /* CWLateralSlideAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCCB75FA75C848F13C1EA4242D787ECF /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 122EDF23D6A289934646A03826720623 /* GCDWebServer.m */; };
+		BE97D79FA076A6A71350579AE9D3DBA9 /* GCDWebUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84112E14D9E297D3C7D323889B2823FF /* GCDWebUploader.m */; };
+		C1932EEDBCF1379B6447E2C5D45C1772 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = E749967DA94ECEA38B8B9CF49797B8DE /* GCDWebServerConnection.m */; };
+		C9A395E90395CB662C7332B05DF15F11 /* UIViewController+CWLateralSlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 90E99CAD0AAEB5C5D672574871031823 /* UIViewController+CWLateralSlide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0844C04121D609EF3B9B9550A794E00 /* CWDrawerTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = B8B50768D10430252E83E3234B9661E8 /* CWDrawerTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D306B03DA8E492568032265CD23C6462 /* GCDWebServer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CC6C744D8772CAC382ABFAAE832A2BD /* GCDWebServer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D31F305A7AB202CE47351BE495F3CE77 /* GCDWebServerConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E1870160698307A1E91A14BDD0B4BAF /* GCDWebServerConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5ECAACA5A94B77CFDFEAC1421D200C0 /* GCDWebServerMultiPartFormRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E2C843B0A536B256AD1AB01C9B41F1 /* GCDWebServerMultiPartFormRequest.m */; };
+		D6CA3C9CCD66A29359C0BB070AE1B74C /* GCDWebServerStreamedResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = A388C0001770444D9F654ED736B9AF50 /* GCDWebServerStreamedResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAB359E96F048D562D1E867CA361FFBB /* GCDWebServerDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C6066ADD0F402B0CD96BC30737E58B5 /* GCDWebServerDataRequest.m */; };
+		DFAA6D8B407F7183C7B7C51F824891F7 /* GCDWebUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F860F221A7860CA11D370A56DEA75DC /* GCDWebUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E097C58ABE788123F57BDAC849938D18 /* GCDWebServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 055A6D4B7A9DF75E13085038204D09A5 /* GCDWebServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E41E807B5C91404FC7930A24FE7C710A /* CWLateralSlideAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = AC71AD0CEE94ED552B1A038AE2B7ABC2 /* CWLateralSlideAnimator.m */; };
+		F4A8DC3243B07C5BBF2C28FCF11B2FA8 /* CWLateralSlideAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = C5992230EFB71A88779D4ACCD167ED43 /* CWLateralSlideAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F687039A7229E96122D180B995FEA460 /* Pods-CRBananerPlayerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C17041115ECC2BB83B4C6F141C37E98A /* Pods-CRBananerPlayerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F853CDFED6E9A9A3A172FDE66DC41596 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = A84E7C58204A8D40E170F1A68BF6F800 /* GCDWebServerResponse.m */; };
+		F853CDFED6E9A9A3A172FDE66DC41596 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ED089AB091A8FBC1F94AF46ED3FF29 /* GCDWebServerResponse.m */; };
 		F8D953269C4767BAB41CD429D575009F /* Pods-CRBananerPlayerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA07D6B962D47264ED078FCBDD4F3DE /* Pods-CRBananerPlayerTests-dummy.m */; };
-		F99A3B8FC169CDC4F535D1345F1CFE90 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 20EE79E72FD919F7786AD37E9186C66A /* GCDWebServerDataResponse.m */; };
-		FE86155CAB3ED6D02E5012B5F13A78F6 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E864DC58C37DF54B145FC7FFE9DBB46 /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F99A3B8FC169CDC4F535D1345F1CFE90 /* GCDWebServerDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DD761213AE0509B3ED81B76476C94B /* GCDWebServerDataResponse.m */; };
+		FE86155CAB3ED6D02E5012B5F13A78F6 /* GCDWebServerURLEncodedFormRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EC50495D5BD8307C21EB8E46CBF6740 /* GCDWebServerURLEncodedFormRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,88 +89,92 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03E2C843B0A536B256AD1AB01C9B41F1 /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
 		044BDED03F23C3B500899894DD075361 /* Pods-CRBananerPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRBananerPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		05D3EAF9B7388A973C6FFAB014A7A0D3 /* GCDWebUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebUploader.h; path = GCDWebUploader/GCDWebUploader.h; sourceTree = "<group>"; };
-		078A96859536724663F9165DB7EE4F1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		055A6D4B7A9DF75E13085038204D09A5 /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		055F6A61B57D4EB140B438D8722B5F87 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		0BA655E43AC9AD7EE384DF7BBA0A8A67 /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
 		0BCC87926215A9323DB012DBA907B688 /* Pods-CRBananerPlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRBananerPlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		0D6B19865420C763D63C2B084C250287 /* CWDrawerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWDrawerTransition.m; path = CWLateralSlide/CWDrawerTransition.m; sourceTree = "<group>"; };
+		103BD1DEC586F747560F9F29A970C95F /* CWInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWInteractiveTransition.h; path = CWLateralSlide/CWInteractiveTransition.h; sourceTree = "<group>"; };
+		122EDF23D6A289934646A03826720623 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
 		1577C8219AD4C6D7E91CC6C8ABEC11D2 /* Pods-CRBananerPlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRBananerPlayer-dummy.m"; sourceTree = "<group>"; };
+		16FCA4A184456CB76311F36C0EF81DE1 /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
 		1959831C16F5BF1DD409F41CE3BCC4C7 /* Pods-CRBananerPlayerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRBananerPlayerTests-frameworks.sh"; sourceTree = "<group>"; };
 		1B274F4BBAA64C4DBE12B7C33A44AD7B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20EE79E72FD919F7786AD37E9186C66A /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
-		21A36370366A90D04142892194B67939 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
 		229DBE968862FBB2E43C2BABEBB615BF /* Pods-CRBananerPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRBananerPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		23AA7CD4FF740C36A429F4EB5A8F77C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		26C68DE6A37B0D8CE0DD6FF51DBDDA11 /* CWLateralSlideConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideConfiguration.h; path = CWLateralSlide/CWLateralSlideConfiguration.h; sourceTree = "<group>"; };
+		2772E0B49491B318AD7CD767F59B9571 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
 		2813DAD2E7566DD5BF2FBB41438CFED6 /* Pods-CRBananerPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRBananerPlayer.modulemap"; sourceTree = "<group>"; };
-		2F6394BADA59FAE1CD1054A8D67D3B1D /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
-		3A0EFC509876054B9423FE6BDBE2ABF5 /* CWLateralSlideConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideConfiguration.m; path = CWLateralSlide/CWLateralSlideConfiguration.m; sourceTree = "<group>"; };
-		3B558B72030F294FB2083737EA2F692A /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
-		3FB1CA601B962D3F4551271546B8D3D1 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
-		40367FCF9444B07C85391D932A0E6713 /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
-		40643A50AF5980A6CBD43D325F792455 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
-		407DD84DE665B40D70A65EEFBAB91F38 /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
-		40F1E472D44D4A1E8DC27CD01C14837A /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
-		41433A1F3F25AEB17AA983F964983F82 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
-		41893923D589CF390B0CF8484875D26B /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
-		4571658615EB3841B4A62AD81952A6F1 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
-		46520DF3B17C73CE319EF6432698E56C /* CWLateralSlide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWLateralSlide.xcconfig; sourceTree = "<group>"; };
+		2CC6C744D8772CAC382ABFAAE832A2BD /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
+		2F7EBDD56952D4EEBE492CEDB3493C69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F860F221A7860CA11D370A56DEA75DC /* GCDWebUploader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebUploader.h; path = GCDWebUploader/GCDWebUploader.h; sourceTree = "<group>"; };
+		32ED089AB091A8FBC1F94AF46ED3FF29 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		3A6C7BAD0B204A14C9F7C997BA4C82C8 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = thirdparties/UTDID.framework; sourceTree = "<group>"; };
+		3ABE73352AA0A9C64CF905B7B3A3C5A1 /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/Core/GCDWebServerPrivate.h; sourceTree = "<group>"; };
+		3D3E52012504DE3B3DEE85890891D607 /* UMAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMAnalytics.framework; sourceTree = "<group>"; };
+		3E1870160698307A1E91A14BDD0B4BAF /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
+		40CE1978DA003B8789FCB975F298F945 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456BA2210AD84B0CFAE5673D0A6434C2 /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
 		470C5707A6BC525ADBA5B9E6A264B79C /* Pods-CRBananerPlayer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRBananerPlayer-resources.sh"; sourceTree = "<group>"; };
-		47145BBAB6642244C4E40BA9043EB719 /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
-		47878D8D8C52531160A5FA3805ED7BA7 /* CWLateralSlide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-umbrella.h"; sourceTree = "<group>"; };
-		4AF584952143075FC327C890FA129AFD /* GCDWebServerMultiPartFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerMultiPartFormRequest.m; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.m; sourceTree = "<group>"; };
-		4B8A0CB77E04A66A2D2DA743FABC0D99 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D539DA3E34C7D424572B1CEC24AEA73 /* GCDWebServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/Core/GCDWebServer.m; sourceTree = "<group>"; };
-		4D5B5CE673B640902EA917BC91F9CD1F /* CWLateralSlide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CWLateralSlide.modulemap; sourceTree = "<group>"; };
-		4DAAD80540E7EE5F2AEAF10CCF296569 /* GCDWebServer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-umbrella.h"; sourceTree = "<group>"; };
-		4EC6EBF3B610564A933C0FB7A6FEB1C1 /* GCDWebServerURLEncodedFormRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerURLEncodedFormRequest.m; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.m; sourceTree = "<group>"; };
 		51512C151FBBD2C3AE7F46BCF3830658 /* Pods-CRBananerPlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRBananerPlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		525FD794689B83E96ABD2AD26E1EB111 /* GCDWebServer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GCDWebServer-prefix.pch"; sourceTree = "<group>"; };
+		5686A5785233185160D0EDDD709C9870 /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
 		595C0AF0A11905CD8D7EEF4EF553D217 /* CWLateralSlide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CWLateralSlide.framework; path = CWLateralSlide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E864DC58C37DF54B145FC7FFE9DBB46 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
+		59677262C59337D006AB6C3305012F33 /* GCDWebServerDataRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataRequest.h; path = GCDWebServer/Requests/GCDWebServerDataRequest.h; sourceTree = "<group>"; };
+		5EC50495D5BD8307C21EB8E46CBF6740 /* GCDWebServerURLEncodedFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerURLEncodedFormRequest.h; path = GCDWebServer/Requests/GCDWebServerURLEncodedFormRequest.h; sourceTree = "<group>"; };
 		64950D411AEC4BB862A5A3B103B2987C /* Pods_CRBananerPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CRBananerPlayerTests.framework; path = "Pods-CRBananerPlayerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67A561A2C28243B51AE6FAE3157C425C /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
-		680821A8967A71F4A530BA736812F378 /* CWLateralSlide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWLateralSlide-dummy.m"; sourceTree = "<group>"; };
-		7882D7ECB2A0A60BA166A280F70154FF /* UIViewController+CWLateralSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CWLateralSlide.h"; path = "CWLateralSlide/UIViewController+CWLateralSlide.h"; sourceTree = "<group>"; };
 		7AB6B97486D546CC89A486318145FD8C /* Pods-CRBananerPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRBananerPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		7ABA44028F6A5686CA09E1ECC6D2B503 /* Pods-CRBananerPlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CRBananerPlayerTests.modulemap"; sourceTree = "<group>"; };
 		7BD3CB95BC663703DAC7E1CBE3D897F4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EB1DC94F0FFB26A7CB11581D2EF85C1 /* CWLateralSlide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-umbrella.h"; sourceTree = "<group>"; };
 		7F81454505FB45E5AAF813719468BAD6 /* Pods-CRBananerPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRBananerPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
-		7FE458CF0D9EFA5857AF457F43B560D4 /* GCDWebServerConnection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/Core/GCDWebServerConnection.h; sourceTree = "<group>"; };
 		81EAB1ACE694E696FF8C5B9CBEFAEA9B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		833A4DFC6B12CC8E17E589607931FD52 /* Pods-CRBananerPlayer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRBananerPlayer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		835C688EE12B12C4D2AAC7D974205A5E /* GCDWebServerFileResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileResponse.m; path = GCDWebServer/Responses/GCDWebServerFileResponse.m; sourceTree = "<group>"; };
-		88AC384E8CB02002ACE577C5DB81ECDA /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
-		8A08296D4414824AEB12FA2446DF2806 /* GCDWebUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebUploader.m; path = GCDWebUploader/GCDWebUploader.m; sourceTree = "<group>"; };
+		84112E14D9E297D3C7D323889B2823FF /* GCDWebUploader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebUploader.m; path = GCDWebUploader/GCDWebUploader.m; sourceTree = "<group>"; };
+		90E99CAD0AAEB5C5D672574871031823 /* UIViewController+CWLateralSlide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CWLateralSlide.h"; path = "CWLateralSlide/UIViewController+CWLateralSlide.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93EFD8BCEE6ADB9FB8AE1476D5A00294 /* Pods_CRBananerPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CRBananerPlayer.framework; path = "Pods-CRBananerPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99174C5F2785877C53A3EAD47CD558A1 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
-		9AB61CB9C5920846E1D7B28A94D24EEA /* GCDWebServerFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFunctions.h; path = GCDWebServer/Core/GCDWebServerFunctions.h; sourceTree = "<group>"; };
+		96250A968EE383DCE6B3469DD7D9FD16 /* CWLateralSlide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-prefix.pch"; sourceTree = "<group>"; };
 		9ADC782914BDB2E1023333B2CD0ED2C2 /* Pods-CRBananerPlayer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRBananerPlayer-frameworks.sh"; sourceTree = "<group>"; };
-		9C7715D3DB359F19ED12F4F08769FAD7 /* CWDrawerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWDrawerTransition.h; path = CWLateralSlide/CWDrawerTransition.h; sourceTree = "<group>"; };
+		9C55C3217E145090FBF116AD41268A4A /* GCDWebServerMultiPartFormRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerMultiPartFormRequest.h; path = GCDWebServer/Requests/GCDWebServerMultiPartFormRequest.h; sourceTree = "<group>"; };
+		9C6066ADD0F402B0CD96BC30737E58B5 /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
 		9C85069B9BBA805660998E8871E20A3B /* Pods-CRBananerPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRBananerPlayer-umbrella.h"; sourceTree = "<group>"; };
-		A17D036CA077926684627185ED26749C /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
-		A26A17D8E2820ED20D6A08C9B4C6D2E2 /* CWLateralSlideConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideConfiguration.h; path = CWLateralSlide/CWLateralSlideConfiguration.h; sourceTree = "<group>"; };
-		A32267ABBF522C7A1A01BF41AC70AD20 /* GCDWebServer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GCDWebServer.xcconfig; sourceTree = "<group>"; };
-		A5E35D717ED1A407BAE7748470C2F06A /* GCDWebServerDataRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataRequest.m; path = GCDWebServer/Requests/GCDWebServerDataRequest.m; sourceTree = "<group>"; };
-		A84E7C58204A8D40E170F1A68BF6F800 /* GCDWebServerResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/Core/GCDWebServerResponse.m; sourceTree = "<group>"; };
+		9E7EE1DAD998F0EF9F0560C6FB21BE43 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		A124843F193AC90247CE43BA739623ED /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		A1893A8574159BC818C3C80314B6FD72 /* GCDWebServerRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/Core/GCDWebServerRequest.m; sourceTree = "<group>"; };
+		A22CC23AD1C1E836321E93C6DE053188 /* CWDrawerTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWDrawerTransition.m; path = CWLateralSlide/CWDrawerTransition.m; sourceTree = "<group>"; };
+		A388C0001770444D9F654ED736B9AF50 /* GCDWebServerStreamedResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerStreamedResponse.h; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.h; sourceTree = "<group>"; };
+		A42E78F779723E5D40BF72772EDFE16A /* GCDWebServerFileResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileResponse.h; path = GCDWebServer/Responses/GCDWebServerFileResponse.h; sourceTree = "<group>"; };
 		A8BF5CFB483C4D04F6ADEFBC6C4767C6 /* Pods-CRBananerPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRBananerPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B34A3CC4E2ECF655D20D70DE334DB427 /* CWInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWInteractiveTransition.m; path = CWLateralSlide/CWInteractiveTransition.m; sourceTree = "<group>"; };
-		BA59A5216B11CEC42808FE84116D189C /* CWLateralSlideAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideAnimator.h; path = CWLateralSlide/CWLateralSlideAnimator.h; sourceTree = "<group>"; };
+		AA92C516B65F7874FDA138EDE784BBA6 /* CWLateralSlide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CWLateralSlide-dummy.m"; sourceTree = "<group>"; };
+		AC71AD0CEE94ED552B1A038AE2B7ABC2 /* CWLateralSlideAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideAnimator.m; path = CWLateralSlide/CWLateralSlideAnimator.m; sourceTree = "<group>"; };
+		AD5AEF54A4B110EF0AE471307DC1A99B /* CWLateralSlide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CWLateralSlide.modulemap; sourceTree = "<group>"; };
+		B8B50768D10430252E83E3234B9661E8 /* CWDrawerTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWDrawerTransition.h; path = CWLateralSlide/CWDrawerTransition.h; sourceTree = "<group>"; };
 		BAA07D6B962D47264ED078FCBDD4F3DE /* Pods-CRBananerPlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRBananerPlayerTests-dummy.m"; sourceTree = "<group>"; };
 		BB320198A9B78AA806E49B1445CC3020 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		BD44F6EECDDC8BAE603420EF58B7156C /* Bugly.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bugly.framework; sourceTree = "<group>"; };
-		BDEA66FA3CC2B158C47CBC43713A9A46 /* GCDWebServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GCDWebServer-dummy.m"; sourceTree = "<group>"; };
+		BB5646E350B5CBF8A38DD1346D855898 /* CWLateralSlide.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CWLateralSlide.xcconfig; sourceTree = "<group>"; };
+		BCF84AEBF6839300349EC9B193A77CE2 /* SecurityEnvSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SecurityEnvSDK.framework; path = thirdparties/SecurityEnvSDK.framework; sourceTree = "<group>"; };
 		C17041115ECC2BB83B4C6F141C37E98A /* Pods-CRBananerPlayerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRBananerPlayerTests-umbrella.h"; sourceTree = "<group>"; };
-		C2BB2BDE91C5407F2F7FC19D5915F61E /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
-		CB52D1AF0A7F12340EAD4D4E3A7FE35D /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
-		CEAD4E74DB94F29992232DCA4BDD4A66 /* CWLateralSlide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CWLateralSlide-prefix.pch"; sourceTree = "<group>"; };
-		D423E1ABE1C533A2599A7AF20A45BB03 /* GCDWebServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/Core/GCDWebServer.h; sourceTree = "<group>"; };
+		C22E4B702AAC6FF92FB11400E8D239FE /* GCDWebUploader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GCDWebUploader.bundle; path = GCDWebUploader/GCDWebUploader.bundle; sourceTree = "<group>"; };
+		C28E6752DA2962775768058C14777AE9 /* GCDWebServer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GCDWebServer.modulemap; sourceTree = "<group>"; };
+		C2CBE4C57F4562F39FE3DF72667C13DA /* GCDWebServerFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFunctions.m; path = GCDWebServer/Core/GCDWebServerFunctions.m; sourceTree = "<group>"; };
+		C2DD761213AE0509B3ED81B76476C94B /* GCDWebServerDataResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerDataResponse.m; path = GCDWebServer/Responses/GCDWebServerDataResponse.m; sourceTree = "<group>"; };
+		C410CE8887F7F1A26DECFBB841B84F98 /* GCDWebServerResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/Core/GCDWebServerResponse.h; sourceTree = "<group>"; };
+		C5992230EFB71A88779D4ACCD167ED43 /* CWLateralSlideAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWLateralSlideAnimator.h; path = CWLateralSlide/CWLateralSlideAnimator.h; sourceTree = "<group>"; };
+		C614397D3D78E9CEC85F7B7C6E34EB70 /* GCDWebServerErrorResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerErrorResponse.h; path = GCDWebServer/Responses/GCDWebServerErrorResponse.h; sourceTree = "<group>"; };
+		C62D4F76F04CC13AA47963C226171B78 /* GCDWebServerStreamedResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerStreamedResponse.m; path = GCDWebServer/Responses/GCDWebServerStreamedResponse.m; sourceTree = "<group>"; };
+		D0A673C118BE079ED81DD8E459CAF08C /* GCDWebServerFileRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerFileRequest.h; path = GCDWebServer/Requests/GCDWebServerFileRequest.h; sourceTree = "<group>"; };
 		D901147CE18F529BA077BF5B1FE398EA /* GCDWebServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GCDWebServer.framework; path = GCDWebServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB5DCA9438724EE8E2774A773F48A8DE /* UIViewController+CWLateralSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CWLateralSlide.m"; path = "CWLateralSlide/UIViewController+CWLateralSlide.m"; sourceTree = "<group>"; };
-		E208854729A1DA4D7D1FCA077A7668BC /* GCDWebUploader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GCDWebUploader.bundle; path = GCDWebUploader/GCDWebUploader.bundle; sourceTree = "<group>"; };
-		EE9866D0B27DCFFD01F85A3A5052B387 /* GCDWebServerErrorResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerErrorResponse.m; path = GCDWebServer/Responses/GCDWebServerErrorResponse.m; sourceTree = "<group>"; };
+		E28F9FC69F5EAE06260441B0E50A2BFA /* UIViewController+CWLateralSlide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CWLateralSlide.m"; path = "CWLateralSlide/UIViewController+CWLateralSlide.m"; sourceTree = "<group>"; };
+		E3D83740913E3973166897F0A9717491 /* GCDWebServerHTTPStatusCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerHTTPStatusCodes.h; path = GCDWebServer/Core/GCDWebServerHTTPStatusCodes.h; sourceTree = "<group>"; };
+		E749967DA94ECEA38B8B9CF49797B8DE /* GCDWebServerConnection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/Core/GCDWebServerConnection.m; sourceTree = "<group>"; };
+		EE10F854E8E0586C1356056C9FA8E424 /* GCDWebServerFileRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerFileRequest.m; path = GCDWebServer/Requests/GCDWebServerFileRequest.m; sourceTree = "<group>"; };
+		F03BEF267625DBAF2B86B1AD10150DFB /* GCDWebServerDataResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerDataResponse.h; path = GCDWebServer/Responses/GCDWebServerDataResponse.h; sourceTree = "<group>"; };
+		F1AC52774BE7964DE04C570F0FFD190A /* CWLateralSlideConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideConfiguration.m; path = CWLateralSlide/CWLateralSlideConfiguration.m; sourceTree = "<group>"; };
 		F583195C449EC81332C3DE6DC0255FE1 /* Pods-CRBananerPlayerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRBananerPlayerTests-resources.sh"; sourceTree = "<group>"; };
-		F8700DDF231246AB4DD52AC4A90461F9 /* CWLateralSlideAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWLateralSlideAnimator.m; path = CWLateralSlide/CWLateralSlideAnimator.m; sourceTree = "<group>"; };
-		FCD1A8C4D7E33599E7603EE70AF68F60 /* CWInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CWInteractiveTransition.h; path = CWLateralSlide/CWInteractiveTransition.h; sourceTree = "<group>"; };
+		FBF04DB5A322274AD63EAE0C0BDF4DFD /* GCDWebServerRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/Core/GCDWebServerRequest.h; sourceTree = "<group>"; };
+		FC7993E1778819534C1B3B6FC883E179 /* CWInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CWInteractiveTransition.m; path = CWLateralSlide/CWInteractiveTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -211,18 +215,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		103ADBC830F4F2D16F7C0018F28CA25B /* Support Files */ = {
+		0190C0FE7BDCAEE082BC1991EC730F39 /* UMCAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				21A36370366A90D04142892194B67939 /* GCDWebServer.modulemap */,
-				A32267ABBF522C7A1A01BF41AC70AD20 /* GCDWebServer.xcconfig */,
-				BDEA66FA3CC2B158C47CBC43713A9A46 /* GCDWebServer-dummy.m */,
-				4571658615EB3841B4A62AD81952A6F1 /* GCDWebServer-prefix.pch */,
-				4DAAD80540E7EE5F2AEAF10CCF296569 /* GCDWebServer-umbrella.h */,
-				4B8A0CB77E04A66A2D2DA743FABC0D99 /* Info.plist */,
+				1AC143481B96CB05B3CBBBC3CB9E5C74 /* Frameworks */,
+			);
+			name = UMCAnalytics;
+			path = UMCAnalytics;
+			sourceTree = "<group>";
+		};
+		0854B889A54641E81F28A2FFC2AF6266 /* Bugly */ = {
+			isa = PBXGroup;
+			children = (
+				288645CED398DEC39AB0D905F1719B15 /* Frameworks */,
+			);
+			name = Bugly;
+			path = Bugly;
+			sourceTree = "<group>";
+		};
+		0F71C7F0BD1B2F1FDE6AFF63910A2ACE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD5AEF54A4B110EF0AE471307DC1A99B /* CWLateralSlide.modulemap */,
+				BB5646E350B5CBF8A38DD1346D855898 /* CWLateralSlide.xcconfig */,
+				AA92C516B65F7874FDA138EDE784BBA6 /* CWLateralSlide-dummy.m */,
+				96250A968EE383DCE6B3469DD7D9FD16 /* CWLateralSlide-prefix.pch */,
+				7EB1DC94F0FFB26A7CB11581D2EF85C1 /* CWLateralSlide-umbrella.h */,
+				40CE1978DA003B8789FCB975F298F945 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/GCDWebServer";
+			path = "../Target Support Files/CWLateralSlide";
 			sourceTree = "<group>";
 		};
 		1162CAC390BF72B171D498EDAC859DEA /* Targets Support Files */ = {
@@ -242,18 +264,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		15233E2A2411B9AF71253EB28B89EE4C /* Support Files */ = {
+		1AC143481B96CB05B3CBBBC3CB9E5C74 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4D5B5CE673B640902EA917BC91F9CD1F /* CWLateralSlide.modulemap */,
-				46520DF3B17C73CE319EF6432698E56C /* CWLateralSlide.xcconfig */,
-				680821A8967A71F4A530BA736812F378 /* CWLateralSlide-dummy.m */,
-				CEAD4E74DB94F29992232DCA4BDD4A66 /* CWLateralSlide-prefix.pch */,
-				47878D8D8C52531160A5FA3805ED7BA7 /* CWLateralSlide-umbrella.h */,
-				078A96859536724663F9165DB7EE4F1D /* Info.plist */,
+				3D3E52012504DE3B3DEE85890891D607 /* UMAnalytics.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/CWLateralSlide";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D4A8600CD50E331A3872F0447BD01B2 /* UMCCommon */ = {
+			isa = PBXGroup;
+			children = (
+				3720FFF176908A21C62AA32AA830BDC5 /* Frameworks */,
+			);
+			name = UMCCommon;
+			path = UMCCommon;
 			sourceTree = "<group>";
 		};
 		1DA5CA3ED2DF8E2921256E79B14A6447 /* Pods-CRBananerPlayer */ = {
@@ -274,59 +299,20 @@
 			path = "Target Support Files/Pods-CRBananerPlayer";
 			sourceTree = "<group>";
 		};
-		27AC5E33F691F2A5BD2E082E80631335 /* Core */ = {
+		288645CED398DEC39AB0D905F1719B15 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D423E1ABE1C533A2599A7AF20A45BB03 /* GCDWebServer.h */,
-				4D539DA3E34C7D424572B1CEC24AEA73 /* GCDWebServer.m */,
-				7FE458CF0D9EFA5857AF457F43B560D4 /* GCDWebServerConnection.h */,
-				88AC384E8CB02002ACE577C5DB81ECDA /* GCDWebServerConnection.m */,
-				3B558B72030F294FB2083737EA2F692A /* GCDWebServerDataRequest.h */,
-				A5E35D717ED1A407BAE7748470C2F06A /* GCDWebServerDataRequest.m */,
-				40367FCF9444B07C85391D932A0E6713 /* GCDWebServerDataResponse.h */,
-				20EE79E72FD919F7786AD37E9186C66A /* GCDWebServerDataResponse.m */,
-				99174C5F2785877C53A3EAD47CD558A1 /* GCDWebServerErrorResponse.h */,
-				EE9866D0B27DCFFD01F85A3A5052B387 /* GCDWebServerErrorResponse.m */,
-				41893923D589CF390B0CF8484875D26B /* GCDWebServerFileRequest.h */,
-				40643A50AF5980A6CBD43D325F792455 /* GCDWebServerFileRequest.m */,
-				40F1E472D44D4A1E8DC27CD01C14837A /* GCDWebServerFileResponse.h */,
-				835C688EE12B12C4D2AAC7D974205A5E /* GCDWebServerFileResponse.m */,
-				9AB61CB9C5920846E1D7B28A94D24EEA /* GCDWebServerFunctions.h */,
-				CB52D1AF0A7F12340EAD4D4E3A7FE35D /* GCDWebServerFunctions.m */,
-				C2BB2BDE91C5407F2F7FC19D5915F61E /* GCDWebServerHTTPStatusCodes.h */,
-				47145BBAB6642244C4E40BA9043EB719 /* GCDWebServerMultiPartFormRequest.h */,
-				4AF584952143075FC327C890FA129AFD /* GCDWebServerMultiPartFormRequest.m */,
-				2F6394BADA59FAE1CD1054A8D67D3B1D /* GCDWebServerPrivate.h */,
-				407DD84DE665B40D70A65EEFBAB91F38 /* GCDWebServerRequest.h */,
-				3FB1CA601B962D3F4551271546B8D3D1 /* GCDWebServerRequest.m */,
-				41433A1F3F25AEB17AA983F964983F82 /* GCDWebServerResponse.h */,
-				A84E7C58204A8D40E170F1A68BF6F800 /* GCDWebServerResponse.m */,
-				A17D036CA077926684627185ED26749C /* GCDWebServerStreamedResponse.h */,
-				67A561A2C28243B51AE6FAE3157C425C /* GCDWebServerStreamedResponse.m */,
-				5E864DC58C37DF54B145FC7FFE9DBB46 /* GCDWebServerURLEncodedFormRequest.h */,
-				4EC6EBF3B610564A933C0FB7A6FEB1C1 /* GCDWebServerURLEncodedFormRequest.m */,
+				5686A5785233185160D0EDDD709C9870 /* Bugly.framework */,
 			);
-			name = Core;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3D4AD1DE9613AD79CF0DABD499D76FEF /* Bugly */ = {
+		3720FFF176908A21C62AA32AA830BDC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F2903AAC1E8FBCA0E7044DC3ED9D0C48 /* Frameworks */,
+				A124843F193AC90247CE43BA739623ED /* UMCommon.framework */,
 			);
-			name = Bugly;
-			path = Bugly;
-			sourceTree = "<group>";
-		};
-		3F5EC1615B8ED34ED5DB36368A2330CD /* GCDWebServer */ = {
-			isa = PBXGroup;
-			children = (
-				27AC5E33F691F2A5BD2E082E80631335 /* Core */,
-				103ADBC830F4F2D16F7C0018F28CA25B /* Support Files */,
-				71700399D88DA594E96609C049C91353 /* WebUploader */,
-			);
-			name = GCDWebServer;
-			path = GCDWebServer;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4F500BBB01D42B5CC05FFA26EB278CAA /* Products */ = {
@@ -340,14 +326,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		53F051A7B7800ECE787B0FD1B5397CA4 /* Pods */ = {
+		5C1A10E79C9E44A428C67DEE23009E06 /* GCDWebServer */ = {
 			isa = PBXGroup;
 			children = (
-				3D4AD1DE9613AD79CF0DABD499D76FEF /* Bugly */,
-				F333DFD3A454472A3D7B63F50B6A7B3B /* CWLateralSlide */,
-				3F5EC1615B8ED34ED5DB36368A2330CD /* GCDWebServer */,
+				6B1701879FB125FE1426A81D492637C8 /* Core */,
+				D5FAE1D24418A0308A61BEE60A022594 /* Support Files */,
+				DE14F6E0F9EAF635B9D13A8496DF814C /* WebUploader */,
 			);
-			name = Pods;
+			name = GCDWebServer;
+			path = GCDWebServer;
 			sourceTree = "<group>";
 		};
 		6360339A2360277390FF8A2CF4E6F45C /* Pods-CRBananerPlayerTests */ = {
@@ -368,22 +355,52 @@
 			path = "Target Support Files/Pods-CRBananerPlayerTests";
 			sourceTree = "<group>";
 		};
-		6BC21CBEB533DD9BAA0DF8D398B50E1E /* Resources */ = {
+		6B1701879FB125FE1426A81D492637C8 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				E208854729A1DA4D7D1FCA077A7668BC /* GCDWebUploader.bundle */,
+				055A6D4B7A9DF75E13085038204D09A5 /* GCDWebServer.h */,
+				122EDF23D6A289934646A03826720623 /* GCDWebServer.m */,
+				3E1870160698307A1E91A14BDD0B4BAF /* GCDWebServerConnection.h */,
+				E749967DA94ECEA38B8B9CF49797B8DE /* GCDWebServerConnection.m */,
+				59677262C59337D006AB6C3305012F33 /* GCDWebServerDataRequest.h */,
+				9C6066ADD0F402B0CD96BC30737E58B5 /* GCDWebServerDataRequest.m */,
+				F03BEF267625DBAF2B86B1AD10150DFB /* GCDWebServerDataResponse.h */,
+				C2DD761213AE0509B3ED81B76476C94B /* GCDWebServerDataResponse.m */,
+				C614397D3D78E9CEC85F7B7C6E34EB70 /* GCDWebServerErrorResponse.h */,
+				9E7EE1DAD998F0EF9F0560C6FB21BE43 /* GCDWebServerErrorResponse.m */,
+				D0A673C118BE079ED81DD8E459CAF08C /* GCDWebServerFileRequest.h */,
+				EE10F854E8E0586C1356056C9FA8E424 /* GCDWebServerFileRequest.m */,
+				A42E78F779723E5D40BF72772EDFE16A /* GCDWebServerFileResponse.h */,
+				16FCA4A184456CB76311F36C0EF81DE1 /* GCDWebServerFileResponse.m */,
+				0BA655E43AC9AD7EE384DF7BBA0A8A67 /* GCDWebServerFunctions.h */,
+				C2CBE4C57F4562F39FE3DF72667C13DA /* GCDWebServerFunctions.m */,
+				E3D83740913E3973166897F0A9717491 /* GCDWebServerHTTPStatusCodes.h */,
+				9C55C3217E145090FBF116AD41268A4A /* GCDWebServerMultiPartFormRequest.h */,
+				03E2C843B0A536B256AD1AB01C9B41F1 /* GCDWebServerMultiPartFormRequest.m */,
+				3ABE73352AA0A9C64CF905B7B3A3C5A1 /* GCDWebServerPrivate.h */,
+				FBF04DB5A322274AD63EAE0C0BDF4DFD /* GCDWebServerRequest.h */,
+				A1893A8574159BC818C3C80314B6FD72 /* GCDWebServerRequest.m */,
+				C410CE8887F7F1A26DECFBB841B84F98 /* GCDWebServerResponse.h */,
+				32ED089AB091A8FBC1F94AF46ED3FF29 /* GCDWebServerResponse.m */,
+				A388C0001770444D9F654ED736B9AF50 /* GCDWebServerStreamedResponse.h */,
+				C62D4F76F04CC13AA47963C226171B78 /* GCDWebServerStreamedResponse.m */,
+				5EC50495D5BD8307C21EB8E46CBF6740 /* GCDWebServerURLEncodedFormRequest.h */,
+				2772E0B49491B318AD7CD767F59B9571 /* GCDWebServerURLEncodedFormRequest.m */,
 			);
-			name = Resources;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		71700399D88DA594E96609C049C91353 /* WebUploader */ = {
+		73F00834E49BA70F5F76957FB4673429 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05D3EAF9B7388A973C6FFAB014A7A0D3 /* GCDWebUploader.h */,
-				8A08296D4414824AEB12FA2446DF2806 /* GCDWebUploader.m */,
-				6BC21CBEB533DD9BAA0DF8D398B50E1E /* Resources */,
+				0854B889A54641E81F28A2FFC2AF6266 /* Bugly */,
+				F39D0154663324FA120D411966BBE5D4 /* CWLateralSlide */,
+				5C1A10E79C9E44A428C67DEE23009E06 /* GCDWebServer */,
+				0190C0FE7BDCAEE082BC1991EC730F39 /* UMCAnalytics */,
+				1D4A8600CD50E331A3872F0447BD01B2 /* UMCCommon */,
+				84FC2FD718A92DF669978F0CA6D7A29B /* UMCSecurityPlugins */,
 			);
-			name = WebUploader;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -391,10 +408,28 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				53F051A7B7800ECE787B0FD1B5397CA4 /* Pods */,
+				73F00834E49BA70F5F76957FB4673429 /* Pods */,
 				4F500BBB01D42B5CC05FFA26EB278CAA /* Products */,
 				1162CAC390BF72B171D498EDAC859DEA /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		84FC2FD718A92DF669978F0CA6D7A29B /* UMCSecurityPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				B9C8AC71D0C410CA228172CF426C01A3 /* Frameworks */,
+			);
+			name = UMCSecurityPlugins;
+			path = UMCSecurityPlugins;
+			sourceTree = "<group>";
+		};
+		B9C8AC71D0C410CA228172CF426C01A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCF84AEBF6839300349EC9B193A77CE2 /* SecurityEnvSDK.framework */,
+				3A6C7BAD0B204A14C9F7C997BA4C82C8 /* UTDID.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CAF1A426969511FDD9E294BE3710F2C7 /* iOS */ = {
@@ -407,28 +442,52 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F2903AAC1E8FBCA0E7044DC3ED9D0C48 /* Frameworks */ = {
+		D5FAE1D24418A0308A61BEE60A022594 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD44F6EECDDC8BAE603420EF58B7156C /* Bugly.framework */,
+				C28E6752DA2962775768058C14777AE9 /* GCDWebServer.modulemap */,
+				456BA2210AD84B0CFAE5673D0A6434C2 /* GCDWebServer.xcconfig */,
+				055F6A61B57D4EB140B438D8722B5F87 /* GCDWebServer-dummy.m */,
+				525FD794689B83E96ABD2AD26E1EB111 /* GCDWebServer-prefix.pch */,
+				2CC6C744D8772CAC382ABFAAE832A2BD /* GCDWebServer-umbrella.h */,
+				2F7EBDD56952D4EEBE492CEDB3493C69 /* Info.plist */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/GCDWebServer";
 			sourceTree = "<group>";
 		};
-		F333DFD3A454472A3D7B63F50B6A7B3B /* CWLateralSlide */ = {
+		DE14F6E0F9EAF635B9D13A8496DF814C /* WebUploader */ = {
 			isa = PBXGroup;
 			children = (
-				9C7715D3DB359F19ED12F4F08769FAD7 /* CWDrawerTransition.h */,
-				0D6B19865420C763D63C2B084C250287 /* CWDrawerTransition.m */,
-				FCD1A8C4D7E33599E7603EE70AF68F60 /* CWInteractiveTransition.h */,
-				B34A3CC4E2ECF655D20D70DE334DB427 /* CWInteractiveTransition.m */,
-				BA59A5216B11CEC42808FE84116D189C /* CWLateralSlideAnimator.h */,
-				F8700DDF231246AB4DD52AC4A90461F9 /* CWLateralSlideAnimator.m */,
-				A26A17D8E2820ED20D6A08C9B4C6D2E2 /* CWLateralSlideConfiguration.h */,
-				3A0EFC509876054B9423FE6BDBE2ABF5 /* CWLateralSlideConfiguration.m */,
-				7882D7ECB2A0A60BA166A280F70154FF /* UIViewController+CWLateralSlide.h */,
-				DB5DCA9438724EE8E2774A773F48A8DE /* UIViewController+CWLateralSlide.m */,
-				15233E2A2411B9AF71253EB28B89EE4C /* Support Files */,
+				2F860F221A7860CA11D370A56DEA75DC /* GCDWebUploader.h */,
+				84112E14D9E297D3C7D323889B2823FF /* GCDWebUploader.m */,
+				DEC47E0E71A24305D3D641E5C64E82FE /* Resources */,
+			);
+			name = WebUploader;
+			sourceTree = "<group>";
+		};
+		DEC47E0E71A24305D3D641E5C64E82FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C22E4B702AAC6FF92FB11400E8D239FE /* GCDWebUploader.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F39D0154663324FA120D411966BBE5D4 /* CWLateralSlide */ = {
+			isa = PBXGroup;
+			children = (
+				B8B50768D10430252E83E3234B9661E8 /* CWDrawerTransition.h */,
+				A22CC23AD1C1E836321E93C6DE053188 /* CWDrawerTransition.m */,
+				103BD1DEC586F747560F9F29A970C95F /* CWInteractiveTransition.h */,
+				FC7993E1778819534C1B3B6FC883E179 /* CWInteractiveTransition.m */,
+				C5992230EFB71A88779D4ACCD167ED43 /* CWLateralSlideAnimator.h */,
+				AC71AD0CEE94ED552B1A038AE2B7ABC2 /* CWLateralSlideAnimator.m */,
+				26C68DE6A37B0D8CE0DD6FF51DBDDA11 /* CWLateralSlideConfiguration.h */,
+				F1AC52774BE7964DE04C570F0FFD190A /* CWLateralSlideConfiguration.m */,
+				90E99CAD0AAEB5C5D672574871031823 /* UIViewController+CWLateralSlide.h */,
+				E28F9FC69F5EAE06260441B0E50A2BFA /* UIViewController+CWLateralSlide.m */,
+				0F71C7F0BD1B2F1FDE6AFF63910A2ACE /* Support Files */,
 			);
 			name = CWLateralSlide;
 			path = CWLateralSlide;
@@ -683,7 +742,7 @@
 /* Begin XCBuildConfiguration section */
 		04B6DFD929AB282B63EB0ECA808E25AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46520DF3B17C73CE319EF6432698E56C /* CWLateralSlide.xcconfig */;
+			baseConfigurationReference = BB5646E350B5CBF8A38DD1346D855898 /* CWLateralSlide.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -844,7 +903,7 @@
 		};
 		234B0E85E71B16DCEA00F8089C1355D1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A32267ABBF522C7A1A01BF41AC70AD20 /* GCDWebServer.xcconfig */;
+			baseConfigurationReference = 456BA2210AD84B0CFAE5673D0A6434C2 /* GCDWebServer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -909,7 +968,7 @@
 		};
 		71F079CF53479BF3A30415B1A04023EC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46520DF3B17C73CE319EF6432698E56C /* CWLateralSlide.xcconfig */;
+			baseConfigurationReference = BB5646E350B5CBF8A38DD1346D855898 /* CWLateralSlide.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -975,7 +1034,7 @@
 		};
 		D011451DCB311B69077E919811E75542 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A32267ABBF522C7A1A01BF41AC70AD20 /* GCDWebServer.xcconfig */;
+			baseConfigurationReference = 456BA2210AD84B0CFAE5673D0A6434C2 /* GCDWebServer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

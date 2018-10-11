@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import StoreKit
 
 class CRSettingViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -21,7 +22,7 @@ class CRSettingViewController: UIViewController, UITableViewDelegate, UITableVie
         tableview?.dataSource = self
         tableview?.separatorStyle = UITableViewCellSeparatorStyle.none
         self.view.addSubview(tableview!)
-        titles = ["上传音频", "关于"]
+        titles = ["上传音频", "关于", "支持我", "隐私政策"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -62,6 +63,18 @@ class CRSettingViewController: UIViewController, UITableViewDelegate, UITableVie
             if let _aboutVc = (aboutVc as? CRAboutViewController) {
                 self.cw_push(_aboutVc)
             }
+        } else if row == 2 {
+            if #available(iOS 10.3, *) {
+                SKStoreReviewController.requestReview()
+            } else {
+                let alert = UIAlertController(title: nil, message: "动动你的小手，去App Store给个五星好评☺️", preferredStyle: .alert)
+                let okAction = UIAlertAction(title: "好的，一定去！", style: .default, handler: nil)
+                alert.addAction(okAction)
+                self.present(alert, animated: true, completion: nil)
+            }
+        } else if row == 3 {
+            let privace = CRPrivaceViewController()
+            self.cw_push(privace)
         }
     }
 }

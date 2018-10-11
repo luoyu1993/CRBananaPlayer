@@ -1,8 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CWLateralSlide" "${PODS_CONFIGURATION_BUILD_DIR}/GCDWebServer" "${PODS_ROOT}/Bugly"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CWLateralSlide" "${PODS_CONFIGURATION_BUILD_DIR}/GCDWebServer" "${PODS_ROOT}/Bugly" "${PODS_ROOT}/UMCAnalytics" "${PODS_ROOT}/UMCCommon" "${PODS_ROOT}/UMCSecurityPlugins/thirdparties"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/CWLateralSlide/CWLateralSlide.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/GCDWebServer/GCDWebServer.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"z" -framework "Bugly" -framework "CWLateralSlide" -framework "GCDWebServer" -framework "Security" -framework "SystemConfiguration"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"c++" -l"sqlite3" -l"z" -framework "Bugly" -framework "CWLateralSlide" -framework "CoreTelephony" -framework "GCDWebServer" -framework "Security" -framework "SecurityEnvSDK" -framework "SystemConfiguration" -framework "UMAnalytics" -framework "UMCommon" -framework "UTDID"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

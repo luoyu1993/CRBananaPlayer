@@ -22,6 +22,15 @@ class CRPlayListCell: UITableViewCell {
         super.init(coder: aDecoder)
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        let titleX = self.isEditing ? 8 : 20 as CGFloat
+        titleLabel?.frame = CGRect.init(x: titleX, y: 8, width: self.contentView.cr_width - 50 - 10 - titleX, height: self.contentView.cr_height)
+        
+        let progressLabelX = self.titleLabel!.frame.maxX
+        progressLabel?.frame = CGRect.init(x: progressLabelX, y: 8, width: 50, height: self.contentView.cr_height)
+    }
+    
     func setup() {
         titleLabel = UILabel.init(frame: CGRect.init(x: 20, y: 8, width: self.contentView.cr_width - 50, height: self.contentView.cr_height))
         progressLabel = UILabel.init(frame: CGRect.init(x: titleLabel!.frame.maxX, y: 8, width: 50, height: self.contentView.cr_height))
@@ -33,15 +42,13 @@ class CRPlayListCell: UITableViewCell {
     }
     
     override func setEditing(_ editing: Bool, animated: Bool) {
-        super.setEditing(editing, animated: animated)
         UIView.animate(withDuration: 0.3) {
             if editing {
                 self.titleLabel?.cr_x = 8
-                self.progressLabel?.cr_x = self.titleLabel!.frame.maxX
             } else {
                 self.titleLabel?.cr_x = 20
-                self.progressLabel?.cr_x = self.titleLabel!.frame.maxX + 20
             }
         }
+        super.setEditing(editing, animated: animated)
     }
 }
